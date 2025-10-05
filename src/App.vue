@@ -1,8 +1,8 @@
 <template>
   <div id="app">
     <MainScreen/>
-    <SectionsPage />
-    <HunterShopPage/>
+    <!-- <SectionsPage />
+    <HunterShopPage/> -->
   </div>
 </template>
 
