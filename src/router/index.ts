@@ -1,11 +1,17 @@
 import { createRouter, createWebHistory } from 'vue-router';
-import SectionsPage from '../components/SectionsPage.vue';
+import MainScreen from '../pages/MainScreen.vue';
+import SectionsPage from '../pages/SectionsPage.vue';
 
 const routes = [
   {
-    path: '/section',
-    name: 'Section',
-    component:SectionsPage
+    path: '/',
+    name: 'Home',
+    component: MainScreen
+  },
+  {
+    path: '/sections',
+    name: 'Sections',
+    component: SectionsPage 
   }
 ];
 

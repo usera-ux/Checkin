@@ -1,7 +1,7 @@
 import { createApp } from "vue";
 import App from "./App.vue";
 import "./index.css"
-import router from './components/router';
+import router from './router';
 import PrimeVue from "primevue/config";
 import Aura from "@primeuix/themes/aura";  
 
@@ -21,6 +21,7 @@ app.use(PrimeVue, {
   }
 });
 app.use(router);
+
 app.component("p-button", Button);
 app.component("p-inputtext", InputText);
 app.component("p-card", Card);
